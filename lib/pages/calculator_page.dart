@@ -37,7 +37,7 @@ class _CalculatorPageState extends State<CalculatorPage> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          SizedBox(height: kMiddleSpace),
+          SizedBox(height: kSpace),
           TextHeader(label: kEnvironmentHeader, opacity: kOpacityHeader),
           SizedBox(height: kSpace),
           NumberInputField(
@@ -71,7 +71,7 @@ class _CalculatorPageState extends State<CalculatorPage> {
             label: kCalculateButton,
             onPressed: _onCalculate,
           ),
-          SizedBox(height: kSpace),
+          SizedBox(height: kMiddleSpace),
           PrimaryButton(
             label: kClearButton,
             onPressed: _clear,
